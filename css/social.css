@@ -1,0 +1,14 @@
+.instagram,.fa-instagram {
+  display: inline-block;
+  padding-top: 3px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 25px;
+  vertical-align:middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}

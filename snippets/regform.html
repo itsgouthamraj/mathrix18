@@ -1,0 +1,55 @@
+<div class="modal fade" id="regform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content black">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: #62C85B;text-align: center;" id="exampleModalLabel"><span style="font-size: 2.5rem;">R</span><span style="font-size: 2.3rem;">egister</span></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span style="color: #62C85B;" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="regbody">
+        <form name="Reg" id="Reg" action="auth/reg.php" method="post" onsubmit="return regUser()">
+          <div class="form-group">
+            <input title="3 characters minimum" required name="studName" type="text" placeholder="Name" style="border-color: #62C85B; background-color: black;color: #62C85B;" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <input title="3 characters minimum" required name="studId" type="text" placeholder="College ID Card No." style="border-color: #62C85B; background-color: black;color: #62C85B;" class="form-control" id="id">
+          </div>
+          <div class="form-group">
+            <input required name="studClg" type="text" placeholder="College Name" style="border-color: #62C85B; background-color: black;color: #62C85B;" class="form-control" id="clg">
+          </div>
+          <div class="form-group">
+            <input required name="studEmail" type="email" placeholder="Email" style="border-color: #62C85B; background-color: black;color: #62C85B;" class="form-control" id="email">
+          </div>
+          <div class="form-group num">
+            <input title="10 characters minimum" onkeydown="return numt(event)" required name="studPhone" type="number" placeholder="Mobile No" style="border-color: #62C85B; background-color: black;color: #62C85B;" class="form-control" id="ph">
+          </div>
+              <div style="position: absolute; left: 0;">
+          <p id="errmsg" style="color:red;padding-left: 25px;"></p>
+        </div>
+      </div>
+      <div class="modal-footer" id="regbtn">
+  
+        <button id="sendReg" type="submit" class="btn btn-danger btn-lg" value="Register">Register</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="regstatus" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content black">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: #62C85B;text-align: center;" id="exampleModalLabel">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span style="color: #62C85B;" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="regstatusbody">
+        
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,253 @@
+
+body{
+	background-color: #333;
+	color: #fff;
+}
+.navbar{
+	border-bottom: #62C85B 3px solid;
+	opacity: 0.8;
+}
+.navbar-brand{
+	font-size: 20px;
+	font-weight: bold;
+}
+#home{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../assets/hoome-bg.jpeg") no-repeat;
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.dark-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	//min-height: 700px;
+}
+.home-inner{
+	padding-top: -10px;
+}
+.footer-distributed{
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 35%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:#62C85B;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 40%;
+}
+
+.footer-distributed .footer-center i{
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+@media only screen and (max-width: 500px) {
+ .meow{
+ 	font-size: 36px;
+ }
+ .booo{
+ 	width: 100%;
+ }
+ #ftr-hd{
+ 	font-size: 2rem !important;
+ }
+}
+.list-group li{
+	background-color: black !important;
+	color: white;
+}
+.list-group h4{
+	color: #62C85B !important;
+}
+.nav-item .active{
+	border-bottom-width: 0px;
+	background-color: green !important;
+	border: none !important;
+	border-radius: 12px;
+	color: white;
+	transition-duration: 2s;
+
+}
+.bull li{
+	
+	display: list-item !important;
+	list-style-type: disc !important;
+	list-style-position: inside !important;
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+@media only screen and (min-width: 768px) {
+	.wrkres{
+		height: 450px !important;
+
+	}
+	#animlogo{
+		height: 500px !important;
+		width: : 500px !important;
+	}
+	}
+.modal-dialog,.modal-content,.modal-body{
+	height: 90% !important;
+	overflow-y: auto;
+}
+.nav-tabs .nav-item:hover{
+   color: red !important;
+}
